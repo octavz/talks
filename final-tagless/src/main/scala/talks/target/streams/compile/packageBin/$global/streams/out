@@ -1,0 +1,33 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/talks_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/UserOpsMemory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/UserOpsMemory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$DbError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$DbError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/UserService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/UserService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$PasswordsNotMatch$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$PasswordsNotMatch$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/Types$UserNotFound$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/Types$UserNotFound$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	talks/UserOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ozaharia/projects/talks/final-tagless/src/main/scala/talks/target/scala-2.12/classes/talks/UserOps.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
