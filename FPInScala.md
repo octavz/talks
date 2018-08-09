@@ -165,7 +165,7 @@ trait UserOps[F[_]] { //F is here a higher kinded type
   def createSession(user: User): F[SessionKey]
 }
 
-class UserService(userOps: UserOps) {
+class UserService(userOps: UserOps[F]) {
   def login(email: String, pass: String): F[Either[Error, SessionKey]] = 
     userOps.findByEmail(email) flatMap { 
       case Some(user) => 
@@ -196,8 +196,8 @@ class UserService[F[_]: Monad](implicit userOps: UserOps[F]) {
       case Some(user) => 
           if(user.pass == pass) {
             userOps.createSession(user) map ( Right(_) )
-          } else implicitly[Monad[F]].pure(Left(PasswordsNotMatch))
-      case _ => implicitly[Monad[F]].pure(Left(UserNotFound))
+          } else Monad[F].pure(Left(PasswordsNotMatch))
+      case _ => Monad[F].pure(Left(UserNotFound))
     }
 }
 ```
@@ -267,11 +267,11 @@ class UserService[F[_]: Monad](userOps: UserOps[F], logger: LoggingOps[F]) {
             userOps.createSession(user) map ( Right(_) )
           } else {
             logger.error("Sorry", new Exception("Password is bad"))
-            implicitly[Monad[F]].pure(Left(PasswordsNotMatch))
+            Monad[F].pure(Left(PasswordsNotMatch))
           }
       case _ => {
         logger.error("Sorry again", new Exception("User not found"))
-        implicitly[Monad[F]].pure(Left(UserNotFound))
+        Monad[F].pure(Left(UserNotFound))
       }
     }
   } 
