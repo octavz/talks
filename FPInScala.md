@@ -255,7 +255,7 @@ trait UserOps[F[_]] {
 
 trait LoggingOps[F[_]] {
   def info(message: String): F[Unit]
-  def error(message: String, t: Throwableuser): F[Unit]
+  def error(message: String, t: Throwable): F[Unit]
 }
 
 class UserService[F[_]: Monad](userOps: UserOps[F], logger: LoggingOps[F]) {

@@ -22,4 +22,18 @@ object Implicits {
 
     def createSession(user: User): Id[SessionKey] = randomUUID().toString
   }
+
+  implicit val loggingOpsFuture = new LoggingOps[Future] {
+    override def info(message: String) =
+      Future.successful(println(message))
+
+    override def error(message: String, t: Throwable) =
+      Future.successful(println(s"$message\n${t.getMessage}"))
+  }
+
+  implicit val loggingOpsId = new LoggingOps[Id] {
+    override def info(message: String) = println(message)
+
+    override def error(message: String, t: Throwable) = println(s"$message\nException: ${t.getMessage}")
+  }
 }
